@@ -4,15 +4,7 @@ const prevButton = document.querySelector('[data-js="button-prev"]');
 const nextButton = document.querySelector('[data-js="button-next"]');
 
 
-export function pageNavigationButton() {
-    /*const updateNavigationButtons = () => {
-        let currentPage = getPage();
-        let maxPage = getMaxPage();
-        
-        prevButton.disabled = currentPage <= 1;
-        nextButton.disabled = currentPage >= maxPage;
-    };
-    */
+export function initNavigationButton() {
 
     prevButton.addEventListener("click", () => {
         if (getPage() > 1) {
