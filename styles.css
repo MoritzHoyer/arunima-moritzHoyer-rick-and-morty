@@ -2,6 +2,7 @@
 @import "components/search-bar/search-bar.css";
 @import "components/nav-button/nav-button.css";
 @import "components/nav-pagination/nav-pagination.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -10,14 +11,18 @@
 }
 
 :root {
-  --color-primary: rgb(51, 51, 51);
-  --color-secondary: #f6f6f6;
-  --font-family: system-ui;
+  --color-primary: #7ffe48;
+  --color-secondary: #22a2bd;
+  --font-family: "Inter", system-ui, sans-serif;
+  --font-weight-regular: 400; /* Regular */
+  --font-weight-bold: 700; /* Bold */
 }
 
 body {
   font-family: var(--font-family);
+  font-weight: var(--font-weight-regular);
   color: var(--color-primary);
+  background-color: #0c1533;
   padding: 20px;
 }
 
